@@ -12,6 +12,11 @@ const runtimes = {
     extractedName: `node-v${version}-darwin-arm64`,
     sha256: "c59006db713c770d6ec63ae16cb3edc11f49ee093b5c415d667bb4f436c6526d",
   },
+  "darwin-x64": {
+    archiveName: `node-v${version}-darwin-x64.tar.gz`,
+    extractedName: `node-v${version}-darwin-x64`,
+    sha256: "3cfed4795cd97277559763c5f56e711852d2cc2420bda1cea30c8aa9ac77ce0c",
+  },
   "win32-x64": {
     archiveName: `node-v${version}-win-x64.zip`,
     extractedName: `node-v${version}-win-x64`,
